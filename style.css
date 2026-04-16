@@ -6,6 +6,67 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family:'Courier New', Courier, monospace
+    font-family: 'Balsamiq Sans', sans-serif;
     /*change to google font later coz hell nah bruh*/
+    background: linear-gradient(-45deg, #ab58db, #efc4fa, #fac4f6, #ee7cf2);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}    
+
+
+.Profile {
+    background: white;
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    background-color: #f1d6ff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #d182eb;
+    transform: scale(1.05);
+}
+
+.balsamiq-sans-regular {
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.balsamiq-sans-bold {
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.balsamiq-sans-regular-italic {
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.balsamiq-sans-bold-italic {
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
